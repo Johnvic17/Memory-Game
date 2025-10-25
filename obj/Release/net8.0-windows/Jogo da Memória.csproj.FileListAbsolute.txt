@@ -1,0 +1,27 @@
+C:\Users\ferna\source\repos\Jogo da Memória\Jogo da Memória\bin\Release\net8.0-windows\Jogo da Memória.exe
+C:\Users\ferna\source\repos\Jogo da Memória\Jogo da Memória\bin\Release\net8.0-windows\Resources\musica_fundo.mp3
+C:\Users\ferna\source\repos\Jogo da Memória\Jogo da Memória\bin\Release\net8.0-windows\Jogo da Memória.deps.json
+C:\Users\ferna\source\repos\Jogo da Memória\Jogo da Memória\bin\Release\net8.0-windows\Jogo da Memória.runtimeconfig.json
+C:\Users\ferna\source\repos\Jogo da Memória\Jogo da Memória\bin\Release\net8.0-windows\Jogo da Memória.dll
+C:\Users\ferna\source\repos\Jogo da Memória\Jogo da Memória\bin\Release\net8.0-windows\Jogo da Memória.pdb
+C:\Users\ferna\source\repos\Jogo da Memória\Jogo da Memória\bin\Release\net8.0-windows\Interop.WMPLib.dll
+C:\Users\ferna\source\repos\Jogo da Memória\Jogo da Memória\bin\Release\net8.0-windows\AxInterop.WMPLib.dll
+C:\Users\ferna\source\repos\Jogo da Memória\Jogo da Memória\obj\Release\net8.0-windows\Interop.WMPLib.dll
+C:\Users\ferna\source\repos\Jogo da Memória\Jogo da Memória\obj\Release\net8.0-windows\AxInterop.WMPLib.dll
+C:\Users\ferna\source\repos\Jogo da Memória\Jogo da Memória\obj\Release\net8.0-windows\Jogo da Memória.csproj.ResolveComReference.cache
+C:\Users\ferna\source\repos\Jogo da Memória\Jogo da Memória\obj\Release\net8.0-windows\Jogo da Memória.g.resources
+C:\Users\ferna\source\repos\Jogo da Memória\Jogo da Memória\obj\Release\net8.0-windows\Jogo_da_Memória.Jogo.resources
+C:\Users\ferna\source\repos\Jogo da Memória\Jogo da Memória\obj\Release\net8.0-windows\Jogo_da_Memória.FrmDificil.resources
+C:\Users\ferna\source\repos\Jogo da Memória\Jogo da Memória\obj\Release\net8.0-windows\Jogo_da_Memória.FrmFacil.resources
+C:\Users\ferna\source\repos\Jogo da Memória\Jogo da Memória\obj\Release\net8.0-windows\Jogo_da_Memória.FrmNormal.resources
+C:\Users\ferna\source\repos\Jogo da Memória\Jogo da Memória\obj\Release\net8.0-windows\Jogo_da_Memória.Properties.Resources.resources
+C:\Users\ferna\source\repos\Jogo da Memória\Jogo da Memória\obj\Release\net8.0-windows\Jogo da Memória.csproj.GenerateResource.cache
+C:\Users\ferna\source\repos\Jogo da Memória\Jogo da Memória\obj\Release\net8.0-windows\Jogo da Memória.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ferna\source\repos\Jogo da Memória\Jogo da Memória\obj\Release\net8.0-windows\Jogo da Memória.AssemblyInfoInputs.cache
+C:\Users\ferna\source\repos\Jogo da Memória\Jogo da Memória\obj\Release\net8.0-windows\Jogo da Memória.AssemblyInfo.cs
+C:\Users\ferna\source\repos\Jogo da Memória\Jogo da Memória\obj\Release\net8.0-windows\Jogo da Memória.csproj.CoreCompileInputs.cache
+C:\Users\ferna\source\repos\Jogo da Memória\Jogo da Memória\obj\Release\net8.0-windows\Jogo da Memória.dll
+C:\Users\ferna\source\repos\Jogo da Memória\Jogo da Memória\obj\Release\net8.0-windows\refint\Jogo da Memória.dll
+C:\Users\ferna\source\repos\Jogo da Memória\Jogo da Memória\obj\Release\net8.0-windows\Jogo da Memória.pdb
+C:\Users\ferna\source\repos\Jogo da Memória\Jogo da Memória\obj\Release\net8.0-windows\Jogo da Memória.genruntimeconfig.cache
+C:\Users\ferna\source\repos\Jogo da Memória\Jogo da Memória\obj\Release\net8.0-windows\ref\Jogo da Memória.dll

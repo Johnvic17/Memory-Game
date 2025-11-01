@@ -12,7 +12,7 @@ namespace Jogo_da_Memória
 
         private void CarregarFonte()
         {
-            string fontePath = Path.Combine(Application.StartupPath, "Minecrafter.Alt.ttf");
+            string fontePath = Path.Combine(Application.StartupPath, "Resources", "Minecrafter.Alt.ttf");
             privateFonts.AddFontFile(fontePath);
             Font minhaFonte = new Font(privateFonts.Families[0], 20F, FontStyle.Regular);
             btnStart.Font = minhaFonte;

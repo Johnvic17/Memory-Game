@@ -40,6 +40,9 @@
     <Content Include="Resources\musica_fundo.mp3">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Minecrafter.Alt.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Resource Include="Resources\som_off.png">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>

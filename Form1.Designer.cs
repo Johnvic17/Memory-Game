@@ -59,13 +59,13 @@
             btnFacil.BackColor = Color.DarkOliveGreen;
             btnFacil.BackgroundImageLayout = ImageLayout.Stretch;
             btnFacil.FlatStyle = FlatStyle.Flat;
-            btnFacil.Font = new Font("Minecrafter", 9F, FontStyle.Bold);
+            btnFacil.Font = new Font("Minecrafter", 20F, FontStyle.Bold);
             btnFacil.ForeColor = SystemColors.ControlLight;
-            btnFacil.Location = new Point(205, 235);
+            btnFacil.Location = new Point(180, 235);
             btnFacil.Name = "btnFacil";
-            btnFacil.Size = new Size(84, 92);
+            btnFacil.Size = new Size(109, 92);
             btnFacil.TabIndex = 2;
-            btnFacil.Text = "FÁCIL";
+            btnFacil.Text = "EASY";
             btnFacil.UseVisualStyleBackColor = false;
             btnFacil.Click += btnFrmFacil_Click;
             // 
@@ -73,7 +73,7 @@
             // 
             btnNormal.BackColor = Color.Chocolate;
             btnNormal.FlatStyle = FlatStyle.Flat;
-            btnNormal.Font = new Font("Minecrafter", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnNormal.Font = new Font("Minecrafter", 18F, FontStyle.Bold);
             btnNormal.ForeColor = SystemColors.ButtonHighlight;
             btnNormal.Location = new Point(310, 235);
             btnNormal.Name = "btnNormal";
@@ -87,13 +87,13 @@
             // 
             btnDificil.BackColor = Color.FromArgb(64, 0, 0);
             btnDificil.FlatStyle = FlatStyle.Flat;
-            btnDificil.Font = new Font("Minecrafter", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnDificil.Font = new Font("Minecrafter", 20F);
             btnDificil.ForeColor = SystemColors.ControlLightLight;
             btnDificil.Location = new Point(482, 235);
             btnDificil.Name = "btnDificil";
-            btnDificil.Size = new Size(75, 92);
+            btnDificil.Size = new Size(126, 92);
             btnDificil.TabIndex = 2;
-            btnDificil.Text = "DIFÍCIL";
+            btnDificil.Text = "HARD";
             btnDificil.UseVisualStyleBackColor = false;
             btnDificil.Click += btnFrmDificil_Click;
             // 
@@ -149,7 +149,7 @@
             // 
             label5.AutoSize = true;
             label5.BackColor = Color.Transparent;
-            label5.Font = new Font("Minecrafter", 15F, FontStyle.Bold);
+            label5.Font = new Font("Minecrafter", 15F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label5.ForeColor = SystemColors.ScrollBar;
             label5.Location = new Point(231, 110);
             label5.Name = "label5";

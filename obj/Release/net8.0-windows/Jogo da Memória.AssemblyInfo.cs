@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Jogo da Memória")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fb5d21a14064689e8fb691bf69bfeb387e6c78e6")]
 [assembly: System.Reflection.AssemblyProductAttribute("Jogo da Memória")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Jogo da Memória")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,4 +1,6 @@
-﻿namespace Jogo_da_Memória
+﻿using System.Drawing.Text;
+
+namespace Jogo_da_Memória
 {
     public partial class FrmDificil : Form
     {
@@ -6,12 +8,22 @@
         Label secondClicked = null; // Segunda carta clicada
         bool jogoAtivo = false; // Indica se o jogo já começou
 
+        PrivateFontCollection privateFonts = new PrivateFontCollection();
+
+        private void CarregarFonte()
+        {
+            string fontePath = Path.Combine(Application.StartupPath, "Minecrafter.Alt.ttf");
+            privateFonts.AddFontFile(fontePath);
+            Font minhaFonte = new Font(privateFonts.Families[0], 20F, FontStyle.Regular);
+            btnStart.Font = minhaFonte;
+        }
 
         public FrmDificil()
         {
             InitializeComponent();
             AssignIconsToSquares(); // Distribui os ícones nas cartas
             EsconderIcones();  // Esconde os ícones (mostra só o verso)
+            CarregarFonte(); // Carrega a fonte externa
         }
 
         Random random = new Random(); // Gera números aleatórios

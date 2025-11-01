@@ -1,7 +1,10 @@
 using AxWMPLib; // Biblioteca usada para controlar o player de música (Windows Media Player)
+using System.Drawing.Text;
+using System.Runtime.InteropServices;
 
 namespace Jogo_da_Memória
 {
+
     public partial class Jogo : Form
     {
         AxWindowsMediaPlayer player; // Objeto para reproduzir música de fundo
@@ -64,6 +67,23 @@ namespace Jogo_da_Memória
             frmDificil.Show(); // Exibe o jogo
         }
 
+        // código necessário para o carregamento da fonte externa.
+
+        PrivateFontCollection privateFonts = new PrivateFontCollection();
+
+        private void CarregarFonte()
+        {
+            string fontePath = Path.Combine(Application.StartupPath, "Minecrafter.Alt.ttf");
+            privateFonts.AddFontFile(fontePath);
+            Font minhaFonte = new Font(privateFonts.Families[0], 20F, FontStyle.Regular);
+            label1.Font =  new Font(privateFonts.Families[0], 50.25F, FontStyle.Bold);
+            label5.Font = new Font(privateFonts.Families[0], 15F, FontStyle.Bold);
+            label6.Font = new Font(privateFonts.Families[0], 10F, FontStyle.Bold);
+            btnFacil.Font = minhaFonte;
+            btnNormal.Font = new Font(privateFonts.Families[0], 18F, FontStyle.Bold);
+            btnDificil.Font = minhaFonte;
+        }
+
         // Evento disparado quando o formulário principal é carregado
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -79,6 +99,8 @@ namespace Jogo_da_Memória
             player.settings.setMode("loop", true); // repete a música
             player.settings.volume = 40; // volume médio
             player.Ctlcontrols.play(); // Inicia a reprodução
+
+            CarregarFonte(); // Carrega a fonte externa
         }
 
         bool isMuted = false; // Controla se o som está mudo ou não
